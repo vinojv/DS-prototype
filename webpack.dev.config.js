@@ -19,7 +19,6 @@ const jsSourcePath = [
     path.join(__dirname + '/src'),
     path.join(__dirname + '/lib'),
 ];
-//path.join(__dirname, './lib');
 const buildPath = path.join(__dirname, './__build__');
 const sourcePath = path.join(__dirname, './');
 
@@ -29,6 +28,11 @@ var port = (process.env.PORT) || 8080;
 module.exports = {
     context: jsSourcePath[0],
     entry: {
+        client: [
+            `webpack-dev-server/client?http://${host}:${port}`,
+            'webpack/hot/only-dev-server',
+            'react-hot-loader/patch',
+        ],
         js: 'index.js',
         vendor: [
 //            'whatwg-fetch',
@@ -44,6 +48,9 @@ module.exports = {
     output: {
         path: buildPath,
         filename: "[name].js",
+        publicPath: `http://${host}:${port}/`,
+        filename: "[name].[chunkhash].js",
+        chunkFilename: "[name].[chunkhash].js",
     },
     module: {
         rules: [
@@ -51,26 +58,26 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
-//                include: path.resolve(__dirname, './lib'),
+//                include: path.resolve(__dirname, './src'),
             },
             {
                 test: /\.(otf|png|gif|jpeg(2)?)(\?[a-z0-9]+)?$/,
                 use: 'url-loader',
             },
-//            {
-//                test: /(global|flaticon)\.css$/,
-//                use: [
-//                    'style-loader',
-//                    {
-//                        loader: 'css-loader',
-//                        options: {
-//                            sourceMap: true,
-//                        },
-//
-//                    },
-//                    'postcss-loader',
-//                ],
-//            },
+            {
+                test: /(global|flaticon)\.css$/,
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true,
+                        },
+
+                    },
+                    'postcss-loader',
+                ],
+            },
             {
                 test: /\.css$/,
                 exclude: [/global.css/, /flaticon.css/],

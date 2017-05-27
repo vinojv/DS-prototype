@@ -99,3 +99,5 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+.idea
+.idea/*
