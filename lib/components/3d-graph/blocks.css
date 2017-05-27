@@ -1,0 +1,9 @@
+.graph-tooltip {
+    position: absolute;
+    color: lavender;
+    font-size: 18px;
+}
+
+.graph-3d {
+    transition: all 0.2s ease-out;
+}

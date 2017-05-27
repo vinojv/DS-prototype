@@ -1,0 +1,11 @@
+.legend {
+    position: fixed;
+    right: 40px;
+    top: 90px;
+    height: 100%;
+    width: 295px;
+    background: url("./right-sidebar@2x.png") no-repeat;
+    background-size: contain;
+    transform: translateX(0);
+    transition: all 0.2s ease-out;
+}
