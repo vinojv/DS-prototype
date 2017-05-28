@@ -19,7 +19,11 @@ import {
 ```
 
 ## Header
+<p align="center">
+    <img src="https://raw.githubusercontent.com/vinojv/DS-tryout/master/lib/components/Header/Screen%20Shot.png"/>
+</p>
 usage
+
 ```
     <Header title={"CUSTOMER"}
             subtitle="CHURN MODEL"/>
@@ -32,7 +36,11 @@ props(TODO)
 | subtitle| string | <null> |
 
 ## [Left Side Bar](#LeftBar)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/vinojv/DS-tryout/master/lib/components/left-sidebar-nav/Screen%20Shot.png"/>
+</p>
 usage
+
 ```
     <LeftBar links={[
         {
@@ -60,12 +68,17 @@ data format for links
 | style| string | <null> |
 
 ## [Right Side Bar](#RightBar)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/vinojv/DS-tryout/master/lib/components/right-sidebar-nav/Screen%20Shot.png"/>
+</p>
 usage (accepts child elements)
+
 ```
     <RightBar>
         <div styleName="img"></div>
     </RightBar>
 ```
+
 ## [Shadow](#Shadow)
 usage: use style tag to set position and size of the element
 ```
