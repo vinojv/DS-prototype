@@ -1,7 +1,8 @@
 import * as React from "react";
 import { render } from "react-dom";
 import './global.css';
-import App from './app/App.js';
+
+const App = () => <div>HELLO</div>;
 
 render(<App/>, document.getElementById('root'));
 

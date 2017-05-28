@@ -1,6 +1,7 @@
 # Design System
 
 ## Table of contents
+1. [Fixed Layout](#FixedLayout)
 1. [Header](#Header)
 1. [Left Side Bar](#LeftBar)
 1. [Right Side Bar](#RightBar)
@@ -17,8 +18,22 @@ import {
     ForceDirectedGraph3d,
 } from './lib/index';
 ```
+## [Fixed Layout](#FixedLayout)
+This layout will cover the whole screen.
+usage
+```
+    <FixedLayout>
+        {ChildrenLayouts...}
+    </FixedLayout>
+```
+props(TODO)
 
-## Header
+| Name | type | default |
+|---------|----------|----------|
+| background| | <null> |
+
+
+## [Header](#Header)
 <p align="center">
     <img src="https://raw.githubusercontent.com/vinojv/DS-tryout/master/lib/components/Header/Screen%20Shot.png"/>
 </p>
