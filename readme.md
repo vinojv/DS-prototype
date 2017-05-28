@@ -108,3 +108,19 @@ props
 | autoColorBy| string| 'user'| <null> |
 | colorField| string| 'color'| <null> |
 | forceEngine| string | 'ngraph'| ngraph/d3 |
+
+data format 
+```
+    {   
+       nodes:[{
+           "id": string,
+           "user": string,
+           "color": string,
+           "description": string,
+       }],
+       links:[{
+           "source": string,
+           "target": string,
+       }]
+    }
+```
