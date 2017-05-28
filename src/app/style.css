@@ -1,0 +1,30 @@
+.active {
+    opacity: 1;
+}
+
+.dashboard {
+    background-image: url(./assets/nav-dashboard.svg);
+}
+
+.segments {
+    background-image: url(./assets/nav-segments.svg);
+}
+
+.usage {
+    background-image: url(./assets/nav-usage-analysis.svg);
+}
+
+.model {
+    background-image: url(./assets/nav-model.svg);
+}
+
+.system {
+    background-image: url(./assets/nav-designer.svg);
+}
+
+.img {
+    background: url("./assets/right-sidebar@2x.png") no-repeat;
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+}

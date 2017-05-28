@@ -1,9 +1,9 @@
 import * as React from "react";
 import { render } from "react-dom";
+import './global.css';
+import App from './app/App.js';
 
-const App = ()=><div>{"Hello"}</div>;
-
-render (<App/>, document.getElementById('root'));
+render(<App/>, document.getElementById('root'));
 
 
 if (module.hot) {
