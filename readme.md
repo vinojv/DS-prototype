@@ -61,6 +61,7 @@ usage
         {
             link: '#',
             style: classNames(styles['dashboard']),
+            label: 'label'
         },
     ]}>
         <a href="#" styleName="segments active"></a>
@@ -81,6 +82,7 @@ data format for links
 |----|---|---|
 | link| string | <null> |
 | style| string | <null> |
+| label| string | <null> |
 
 ## [Right Side Bar](#RightBar)
 <p align="center">
