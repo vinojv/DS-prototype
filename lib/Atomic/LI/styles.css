@@ -1,0 +1,21 @@
+.default {
+
+    border-bottom: 1px solid rgba(177, 177, 177, 0.47);
+    padding: 6px 10px;
+    color: #544848;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.class1{
+    border: 1px solid rgba(177, 177, 177, 0.47);
+    padding: 6px 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 5px 3px 1px rgba(239, 237, 237, 0.58);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
