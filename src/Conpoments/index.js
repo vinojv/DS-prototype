@@ -2,11 +2,6 @@
  * Created by mahesh on 6/6/17.
  */
 import React from 'react';
-import ButtonComponent,{DestructiveButton, EllipseButton, RoundedRectButton} from '../../lib/Atomic/Buttons/index';
-import ULComponent from '../../lib/Atomic/List/UL/Index';
-import LIComponent from '../../lib/Atomic/List/LI/index';
-import HeaderComponent from '../../lib/Atomic/Titles/index';
-import InputComponent,{SearchComponent} from '../../lib/Atomic/Input/index';
 
 export default class Conmponents extends React.Component {
 
@@ -29,15 +24,7 @@ export default class Conmponents extends React.Component {
     render() {
         return (
             <div>
-                <HeaderComponent size={4}>HeaderComponentHeaderComponent</HeaderComponent>
-                <InputComponent/>
-                <ULComponent>
-                    <LIComponent onClick={this.click}>1---</LIComponent>
-                    <LIComponent onClick={this.click}>2---</LIComponent>
-                    <LIComponent onClick={this.click}>3---</LIComponent>
-                    <LIComponent onClick={this.click}>4---</LIComponent>
-                </ULComponent>
-                <SearchComponent/>
+
             </div>
         );
     }
