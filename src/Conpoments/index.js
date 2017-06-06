@@ -3,8 +3,8 @@
  */
 import React from 'react';
 import ButtonComponent,{DestructiveButton, EllipseButton, RoundedRectButton} from '../../lib/Atomic/Buttons/index';
-import ULComponent from '../../lib/Atomic/UL/Index';
-import LIComponent from '../../lib/Atomic/LI/index';
+import ULComponent from '../../lib/Atomic/List/UL/Index';
+import LIComponent from '../../lib/Atomic/List/LI/index';
 import HeaderComponent from '../../lib/Atomic/Titles/index';
 import InputComponent,{SearchComponent} from '../../lib/Atomic/Input/index';
 
