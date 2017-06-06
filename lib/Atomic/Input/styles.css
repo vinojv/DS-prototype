@@ -1,0 +1,25 @@
+.default{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding-left: 6px;
+    font-size: 15px;
+}
+
+.borderLess{
+    border: none;
+    border-bottom: 2px solid rgba(227, 227, 227, 0.42);
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 30px;
+    outline: none;
+}
+
+.color{
+    border: none;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    margin: 10px;
+    outline: none;
+    background: transparent;
+}

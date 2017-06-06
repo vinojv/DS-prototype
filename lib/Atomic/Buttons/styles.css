@@ -1,0 +1,48 @@
+.default{
+    vertical-align: middle;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    min-width: 88px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.desctructive{
+    background: #cc1d1d;
+    color: #edf5fd;
+}
+.desctructive:hover{
+    opacity: 0.8;
+}
+
+.transperent{
+    background: transparent;
+    color: black;
+}
+
+.transperent:hover{
+    background: rgba(24, 24, 24, 0.25);
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.circular{
+    padding: 5px 20px;
+    border-radius: 50%;
+}
+
+.raised{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.roundedRect{
+    border-radius: 20%;
+}
