@@ -14,3 +14,12 @@
     margin: 30px;
     outline: none;
 }
+
+.color{
+    border: none;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    margin: 10px;
+    outline: none;
+    background: transparent;
+}

@@ -1,0 +1,12 @@
+.default{
+    color: rgba(119, 114, 114, 0.85);
+    font-weight: 500;
+}
+
+.capitalized{
+    text-transform: uppercase;
+}
+
+.underline{
+    text-decoration: underline;
+}

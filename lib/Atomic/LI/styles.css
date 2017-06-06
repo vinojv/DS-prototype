@@ -1,5 +1,4 @@
 .default {
-
     border-bottom: 1px solid rgba(177, 177, 177, 0.47);
     padding: 6px 10px;
     color: #544848;
@@ -18,4 +17,21 @@
     box-shadow: 3px 5px 3px 1px rgba(239, 237, 237, 0.58);
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+.horizantal{
+    box-shadow:none;
+    border:none;
+    padding: 6px 10px;
+    color: #544848;
+    font-size: 15px;
+    width: auto;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+
+.horizantal:hover{
+    background: rgba(128, 128, 128, 0.62);
 }
